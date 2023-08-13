@@ -40,7 +40,7 @@ from NOBITA_X_ROBOT.modules.helper_funcs.chat_status import dev_plus, sudo_plus,
 from NOBITA_X_ROBOT.modules.helper_funcs.extraction import extract_user
 from NOBITA_X_ROBOT.modules.log_channel import gloggable
 
-ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "NOBITA_X_ROBOT/elevated_users.json")
+ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "NOBITA_X_ROBOT/eleusers.json")
 
 
 def check_user_id(user_id: int, context: CallbackContext) -> Optional[str]:

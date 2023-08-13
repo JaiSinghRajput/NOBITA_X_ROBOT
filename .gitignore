@@ -21,7 +21,7 @@ log.txt
 .directory
 .vscode
 NOBITA_X_ROBOT/modules/helper_funcs/temp.txt
-NOBITA_X_ROBOT/elevated_users.json
+NOBITA_X_ROBOT/eleusers.json
 start-3.9.bat
 *.session
 kangsticker.png
