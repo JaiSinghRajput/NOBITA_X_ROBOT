@@ -1,0 +1,75 @@
+{
+   "name": "NOBITA X ROBOT",
+   "description": "Telegram Group Management Bot Written In Python Using python-telegram-bot.",
+   "repository": "https://github.com/jaisingh007/NOBITA_X_ROBOT",
+   "logo": "https://te.legra.ph/file/1e04ad0d6eec5542f3831.jpg",
+   "keywords": [
+      "python3",
+      "telegram",
+      "bot",
+      "NOBITA_X_ROBOT",
+      "telegram-bot",
+      "management",
+      "ptb",
+      "pyrogram"
+   ],
+   "buildpacks": [
+      {
+         "url": "https://github.com/heroku/heroku-buildpack-python"
+      },
+      {
+         "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      }
+   ],
+   "stack": "heroku-22",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "API_ID": {
+         "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ my.telegram.org/apps.",
+         "required": true,
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ my.telegram.org/apps.",
+         "required": true,
+         "value": ""
+      },
+      "OWNER_ID": {
+         "description": "ʏᴏᴜʀ ᴜsᴇʀ ID ᴀs ᴀɴ ɪɴᴛᴇɢᴇʀ.",
+         "required": true,
+         "value": "6228366286"
+      },
+      "DEV_USERS": {
+         "description": "ᴅᴇᴠs ᴜsᴇʀ ID ᴀs ᴀɴ ɪɴᴛᴇɢᴇʀ.",
+         "required": true,
+         "value": "6228366286"
+      },
+      "OWNER_USERNAME": {
+         "description": "ʏᴏᴜʀ ᴛɢ ᴜsᴇʀɴᴀᴍᴇ",
+         "required": true,
+         "value": "RADHE_KRISHNA_HARE_HARE"
+      },
+      "LOGGER_ID": {
+         "description": "ᴇᴠᴇɴᴛ ʟᴏɢs ᴄʜᴀɴɴᴇʟ  ᴛᴏ ɴᴏᴛᴇ ᴅᴏᴡɴ ɪᴍᴘᴏʀᴛᴀɴᴛ ʙᴏᴛ ʟᴇᴠᴇʟ ᴇᴠᴇɴᴛs, ᴇx: '-10023456'",
+         "required": true,
+         "value": "-100"
+      },
+      "MONGO_DB_URI": {
+         "description": "ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ᴅᴀᴛᴀʙᴀsᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴs (ᴍᴏɴɢᴏ).",
+         "required": true,
+         "value": "mongodb+srv://Neutyabhopadika:newtonkimakichuu@musicbot.1gpfqbj.mongodb.net/?retryWrites=true&w=majority"
+      },
+      "TOKEN": {
+         "description": "Get bot token from @BotFather on TG",
+         "required": true,
+         "value": ""
+      }
+   }
+}
